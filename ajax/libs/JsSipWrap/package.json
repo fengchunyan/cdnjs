@@ -1,0 +1,55 @@
+{
+  "name": "jssipwrapper",
+  "version": "1.0.0",
+  "description": "jssip wrapper ,use for my own callcenter",
+  "browser": "src/lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://jiaguolin@www.mihua.biz:8888/ruby/JsSipWrap.git"
+  },
+  "keywords": [
+    "webrtc",
+    "sip"
+  ],
+  "author": {
+    "name": "emicnet onlinecs team",
+    "email": "cs@emicnet.com",
+    "url": "http://www.emicnet.com/"
+  },
+  "contributors": [
+    "jiaguolin",
+    "fengchunyan",
+    "songguangnuan",
+    "caosiyuan",
+    "guanlulu",
+    "qiulang"
+  ],
+  "license": "MIT",
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "npmName": "JsSipWrap",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+      ]
+    }
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "http://jiaguolin@www.mihua.biz:8888/ruby/JsSipWrap.git",
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "bundle.js",
+          "index.html",
+          "main.css"
+        ]
+      }
+    ]
+  }
+}
